@@ -1,0 +1,14 @@
+{
+    "name": "mycrm/mycrm-specs",
+    "description": "acceptance tests",
+    "require": {
+        "behat/mink-extension": "^2.2"
+    },
+    "authors": [
+        {
+            "name": "David Funaro",
+            "email": "david@mycrm.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
