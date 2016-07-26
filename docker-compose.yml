@@ -8,6 +8,8 @@ services:
     container_name: mycrm-specs
     links:
      - firefox-server
+    environment:
+      BEHAT_PARAMS: '{"extensions" : {"Behat\\MinkExtension" : {"base_url" : "https://it.wikipedia.org/"}}}'
 
   firefox-server:
     container_name: mycrm-specs-server

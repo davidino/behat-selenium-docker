@@ -6,7 +6,7 @@ default:
       context: [ FeatureContext ]
   extensions:
     Behat\MinkExtension:
-      base_url:  'https://it.wikipedia.org/'
+      #base_url:  'https://it.wikipedia.org/'
       sessions:
         default:
           goutte: ~
