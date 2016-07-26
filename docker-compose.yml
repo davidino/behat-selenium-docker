@@ -1,0 +1,16 @@
+version: '2'
+services:
+  specs:
+    build: .
+    volumes:
+      - .:/var/specs
+    command: ./vendor/bin/behat ./features/first.feature
+    container_name: mycrm-specs
+    links:
+     - firefox-server
+
+  firefox-server:
+    container_name: mycrm-specs-server
+    image: selenium/standalone-firefox:2.53.0
+    ports:
+      - "4444:4444"

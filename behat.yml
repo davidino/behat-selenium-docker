@@ -13,4 +13,4 @@ default:
         javascript:
           selenium2:
             browser: "firefox"
-            wd_host: http://0.0.0.0:4444/wd/hub
+            wd_host: http://mycrm-specs-server:4444/wd/hub
