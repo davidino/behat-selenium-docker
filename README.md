@@ -5,7 +5,7 @@ Running specs
 ```docker-compose build```
 
 ## Run specs
-```docker-compose run specs ./features/```
+```docker-compose run --rm specs ./features/```
 
 ## Debugging
 Replace the original image for the container `firefox-server` with `selenium/standalone-firefox-debug:2.53.0`.
