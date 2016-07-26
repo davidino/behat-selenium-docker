@@ -2,7 +2,9 @@
     "name": "mycrm/mycrm-specs",
     "description": "acceptance tests",
     "require": {
-        "behat/mink-extension": "^2.2"
+        "behat/mink-extension": "^2.2",
+        "behat/mink-goutte-driver": "^1.2",
+        "behat/mink-selenium2-driver": "^1.3"
     },
     "authors": [
         {
