@@ -4,6 +4,12 @@ default:
     default:
       paths: [ %paths.base%/features/ ]
       context: [ FeatureContext ]
+    web_features:
+      paths:    [ %paths.base%/features/web ]
+      contexts: [ WebContext ]
+#   api_features:
+#     paths:   # [ %paths.base%/features/api ]
+#     contexts: [ ApiContext ]
   extensions:
     Behat\MinkExtension:
       #base_url:  'https://it.wikipedia.org/'
