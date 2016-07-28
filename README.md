@@ -2,7 +2,12 @@
 Running specs
 
 ## setup
-```docker-compose build```
+
+To setup the project run: 
+
+* ```cd mycrm-specs```
+* ```php composer.phar install```
+* ```docker-compose build```
 
 ## Run specs
 ```docker-compose run --rm specs ./features/```
